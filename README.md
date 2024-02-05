@@ -10,6 +10,7 @@ All requirements should be met except tests, db schema versioning and resiliency
 --
 For populating data there are data.sql or REST(you can create account and client, no updating or deleting implemented)
 currency table is populated only through data.sql. There are 3 currencies, for testing purposes I don't see any need for more (eur, gbp, usd)
+To create transaction for account REST should be used. api/account/balance/transfer 
 --
 To use h2 database console open http://localhost:8080/h2-console 
 driver class = org.h2.Driver
